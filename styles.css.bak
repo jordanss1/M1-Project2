@@ -1,0 +1,210 @@
+body {
+	margin: 0;
+    padding: 0;
+	background-color: Gainsboro;
+}
+
+header {
+	height: 150px;
+	background-color: teal;
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+}
+
+nav {
+	width: 100%;
+}
+
+/*The <div> container of the nav elements*/
+
+.divcon {
+
+}
+
+/* The <ul> in the nav */
+
+.nav {
+	margin-left: auto;
+	align-self: flex-end;
+}
+
+nav a {
+	padding: 7px;
+	color: white;
+    font-family: 'Josefin Slab', serif;
+}
+
+/*The "insert your logo here" link */
+
+.logo {
+	margin: 0 0 100px 80px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+.content1 {
+	background-color: Gainsboro;
+	font-size: 24px;
+	color: black;
+
+}
+
+.content1in1 {
+	background-color: LightGray;
+}
+
+.content2in1 {
+}
+
+.content1 p {
+	width: 100%;
+}
+
+.content2 {
+	background-color: LightGray;
+	color: black;
+	height: 315px;
+}
+
+.content1in2 {
+}
+
+
+.content2in2 {
+
+}
+
+.content2 h2 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.content2 p {
+	line-height: 1.8;
+}
+
+.quote {
+	
+}
+
+.content3 {
+	background-color: 	Gainsboro;
+
+}
+
+.content3 p {
+	line-height: 1.4;
+}
+
+.content3 h2 {
+	font-family: 'Josefin Slab', serif;
+}
+
+.choose {
+	margin-left: 150px;
+	font-family: 'Josefin Slab', serif;
+
+}
+	
+a:link { 
+	text-decoration: none; 
+}
+
+a:visited { 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: none; 
+}
+
+a:active { 
+	text-decoration: none; 
+}
+
+
+@media screen and (max-width: 576px) {
+	
+header {
+	padding: 0!important;
+}
+/* These below are classes to beat the specificty of BS*/
+
+/*The nav*/
+.navpad {
+	width: 100%;
+}
+
+.navp {
+	display: flex;
+}
+
+/*The div under the nav element*/
+.divcon {
+	flex-flow: column wrap;
+}
+
+/* The <ul> in the nav*/
+div .navbar-nav {
+	flex-flow: row nowrap;
+	font-size: 13px;
+	margin-left: 0;
+	justify-content: space-between;
+}
+
+
+.navbar-nav li {
+	padding: 3px;
+	font-size: 12px;
+}
+
+.logo {
+	margin: 0;
+}
+
+/*Main section*/
+
+.content1 p {
+	height: 100%;
+	width: 100%;
+	margin-top: 0;
+}
+
+.content2 {
+	background-color: LightGray;
+	color: black;
+	height: auto;
+	align-text: center;
+	width: 100%;
+}
+
+.content2 p {
+	width: 100% !important;
+}
+
+.contentin3 img {
+	width: 50%!important;
+	height: auto;
+}
+
+.contentin3 {
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 0;
+	border: 1px white solid;
+
+}
+
+.content3 p{
+	line-height: 1.7;
+}
+
+.choose {
+	margin-left: 0;
+	font-family: 'Josefin Slab', serif;
+
+}
